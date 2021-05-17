@@ -9,7 +9,7 @@ h1{color:grey;}
 #calculator{
 	background-color: white;
 	position: absolute;
-	top:20px;
+	top:100px;
 	left: 400px;
 	width:500px;
 	height:auto;
