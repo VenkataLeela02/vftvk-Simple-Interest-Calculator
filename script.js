@@ -14,6 +14,7 @@ function compute()
 	
 		alert("Please enter a positive number");
 		document.getElementById("principal").focus();
+		reset();
 	}
 	else{
 		
