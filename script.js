@@ -43,7 +43,6 @@ function reset(){
 principal.value = null;
 interest.value = 15;
 years.value = 1;
-document.getElementById("result").innerHTML = "";
 }
 
         
