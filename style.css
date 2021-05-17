@@ -53,3 +53,8 @@ h1{color:grey;}
 	color:red;
 }
 
+
+#res_principal, #res_rate, #res_years, #cal_interest{
+	background-color:yellow;
+}
+
