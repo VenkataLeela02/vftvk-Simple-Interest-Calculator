@@ -48,3 +48,8 @@ h1{color:grey;}
 #footer{
 	float:left;
 }
+
+#error{
+	color:red;
+}
+
