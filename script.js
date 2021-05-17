@@ -10,7 +10,7 @@ function compute()
 	var principal = document.getElementById("principal").value;
 	var interest = document.getElementById("rate").value;
 	
-	if(principal === "" || principal == '0'){
+	if(principal === "" || principal == '0' || principal < 0){
 	
 		document.getElementById("result").style.display = "none";
 		document.getElementById("error").style.display = "block";
@@ -30,12 +30,11 @@ function compute()
 			
 		var date = new Date();
 		var res_years = (date.getFullYear()) + parseInt(years,10);
-		console.log(res_years);
-			
 		
 		document.getElementById("res_years").innerHTML = res_years;
 		var maturity_interest =  Math.floor(principal * interest * years/100);
 		document.getElementById("cal_interest").innerHTML = maturity_interest;
+		document.getElementById("principal").focus();
 	}
 }
         
