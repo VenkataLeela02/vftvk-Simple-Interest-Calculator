@@ -1,4 +1,50 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;}
 
+h1{color:grey;}
 
+* {
+  box-sizing: border-box;
+}
+
+#calculator{
+	background-color: white;
+	position: absolute;
+	top:20px;
+	left: 400px;
+	width:500px;
+	height:auto;
+	border-radius: 10px;
+	text-align:center;
+	margin: 5px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.label{
+	margin-left:70px;
+	float:left;
+	margin-right:50px;
+}
+
+#rate{
+	position:absolute;
+	left:250px;
+}
+
+#interest{
+	position:absolute;
+	right:70px;
+}
+
+#years{
+	position:absolute;
+	left:250px;
+}
+
+#result{
+	display:none;
+}
+
+#footer{
+	float:left;
+}
