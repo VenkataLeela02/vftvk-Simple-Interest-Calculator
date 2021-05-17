@@ -33,6 +33,15 @@ function compute()
 		var maturity_interest =  Math.floor(principal * interest * years/100);
 		document.getElementById("cal_interest").innerHTML = maturity_interest;
 		document.getElementById("principal").focus();
+		reset();
 	}
 }
+
+function reset(){
+
+principal.value = null;
+interest.value = 15;
+years.value = 1;
+}
+
         
