@@ -14,7 +14,7 @@ function compute()
 	
 		document.getElementById("result").style.display = "none";
 		document.getElementById("error").style.display = "block";
-		document.getElementById("error").innerHTML = "Please enter the a positive number";
+		document.getElementById("error").innerHTML = "Please enter a positive number";
 		
 	}
 	else{
